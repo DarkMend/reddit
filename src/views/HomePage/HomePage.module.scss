@@ -1,6 +1,11 @@
-.categoryList {
+.section {
   padding: 20px 0;
+}
+
+.categoryList {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }

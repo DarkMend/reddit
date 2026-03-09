@@ -1,0 +1,26 @@
+.button {
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  transition: all 0.3s ease;
+
+  .buttonWrapper {
+    width: 22px;
+    height: 22px;
+    svg {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &:hover {
+    background: rgba(128, 128, 128, 0.16);
+  }
+}

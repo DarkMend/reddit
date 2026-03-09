@@ -1,0 +1,23 @@
+.button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $button-border-primary;
+  cursor: pointer;
+  height: 35px;
+  padding: 0 15px;
+  color: $button-text-primary;
+  background: $button-bg-primary;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+  z-index: 1;
+
+  &:hover {
+    background: $button-bg-secondary;
+    color: $button-text-secondary;
+  }
+}

@@ -10,6 +10,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Vnature",
   description: "Website",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({

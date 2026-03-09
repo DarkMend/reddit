@@ -1,9 +1,9 @@
-import styles from "@/pagesComponents/Home/Home.module.scss";
+import HomePage from "@/views/HomePage/HomePage";
+
+export const metadata = {
+  title: "Главная",
+};
 
 export default function Home() {
-  return (
-    <>
-      <div className={styles.categoryList}></div>
-    </>
-  );
+  return <HomePage />;
 }

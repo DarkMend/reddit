@@ -12,7 +12,10 @@ const nextConfig: NextConfig = {
   reactStrictMode: false,
   sassOptions: {
     includePaths: ["./src"],
-    additionalData: `@import "@/assets/styles/mixins.scss";`,
+    additionalData: `
+      @import "@/assets/styles/mixins.scss";
+      @import "@/assets/styles/consts.scss";
+    `,
   },
   reactCompiler: true,
 };
