@@ -1,0 +1,12 @@
+.item {
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 100px;
+
+  &:hover {
+    background: $button-bg-primary;
+    color: $button-text-primary;
+  }
+}

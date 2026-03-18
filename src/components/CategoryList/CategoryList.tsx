@@ -1,9 +1,11 @@
 import styles from "./CategoryList.module.scss";
+import CategoryListItem from "./CategoryListItem/CategoryListItem";
 
 export default function CategoryList() {
   return (
     <div className={styles.categoryList}>
-      <div className={styles.categoryListIten}>Все новостиы</div>
+      <CategoryListItem text="Новости" href="/" />
+      <CategoryListItem text="Посты" href="/posts" />
     </div>
   );
 }
